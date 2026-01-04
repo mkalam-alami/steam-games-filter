@@ -40,18 +40,19 @@ function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, opt
         const score = percPositive * (game["Positive"] / 10) * Math.max(1, Math.log10(game["Estimated owners"] / 1000));
         return ({
           score,
-          text: `${rightPad(`[${game.Name}]`, RIGHT_PAD)} ` +
+          text: `${rightPad(`${game.Name}:`, RIGHT_PAD)} ` +
+            `${game["Release date"]} | ${formatKilos(game["Estimated owners"])}👥 | ` +
+            `${game["Positive"]}👍 (${formatPercentage(percPositive)}) | ` +
+            `${playTime}h🏁 | $${game["Price"]}🏷️\n` + 
 
-            `${game["Release date"]} | ${formatKilos(game["Estimated owners"])} | ` +
-            `${game["Positive"]} (${formatPercentage(percPositive)}) | ` +
-            `${playTime}h | $${game["Price"]}\n` + 
+            `${' '.repeat(RIGHT_PAD)} https://store.steampowered.com/app/${game.AppID}\n` +
 
             `${' '.repeat(RIGHT_PAD)} ${ellipsify(game["Tags"], 80)}`
         })
       })
       .sort((a, b) => b.score - a.score)
       .map(game => game.text)
-      .join('\n');
+      .join('\n\n');
   }
 }
 

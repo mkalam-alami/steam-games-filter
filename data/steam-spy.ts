@@ -22,11 +22,11 @@ export async function readSteamGames(options: { limit?: number, find?: string } 
   const games = [];
   for await (const record of parser) {
     const game: SteamGame = record;
-    record["Estimated owners"] = parseInt(record["Estimated owners"].split(' - ')[0]);
-    record["Positive"] = parseInt(record["Positive"]);
-    record["Negative"] = parseInt(record["Negative"]);
-    record["Median playtime forever"] = parseInt(record["Median playtime forever"]);
-    record["Release date"] = parseInt(record["Release date"].split(' ')[2]);
+    game["Estimated owners"] = parseInt(record["Estimated owners"].split(' - ')[0]);
+    game["Positive"] = parseInt(record["Positive"]);
+    game["Negative"] = parseInt(record["Negative"]);
+    game["Median playtime forever"] = parseInt(record["Median playtime forever"]);
+    game["Release date"] = parseInt(record["Release date"].split(' ')[2]);
     if (!options.find || game.Name.toLowerCase().includes(options.find.toLowerCase())) {
       games.push(game);
     }
@@ -36,7 +36,7 @@ export async function readSteamGames(options: { limit?: number, find?: string } 
 };
 
 export interface SteamGame {
-  AppId: string,
+  AppID: string,
   Name: string,
   "Release date": number,
   "Estimated owners": number,
