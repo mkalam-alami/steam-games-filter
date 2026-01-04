@@ -7,5 +7,8 @@ import { report } from "./report.ts";
     steam["Positive"] > 20 &&
     steam["Positive"] < 200 &&
     steam["Median playtime forever"] > 0 &&
-    (steam["Positive"] / (steam["Positive"] + steam["Negative"]) >= 0.95));
+    (steam["Positive"] / (steam["Positive"] + steam["Negative"]) >= 0.95) &&
+    !steam["Tags"].includes("Sexual") &&
+    !steam["Tags"].includes("VR"),
+    { writeTo: 'underrated.out', limit: -1 });
 })();

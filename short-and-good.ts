@@ -6,5 +6,6 @@ import { report } from "./report.ts";
     // steam["Release date"] > 2020 &&
     steam["Positive"] > 1000 &&
     (steam["Positive"] / (steam["Positive"] + steam["Negative"]) >= 0.9) &&
-    hltb && hltb.main_story < 4);
+    hltb && hltb.main_story < 4,
+    { writeTo: 'short-and-good.out', limit: -1 });
 })();

@@ -1,3 +1,13 @@
+# Steam Games Filter
+
+## Example
+
+```typescript
+npm install
+npm start short-and-good
+npm start underrated
+```
+
 ## Required CSV datasets
 
 * `data/hltb.csv`

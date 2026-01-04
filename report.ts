@@ -1,9 +1,12 @@
+import fs from "node:fs";
 import { HltbGame, readHtlbGames as readHltbGames } from "./data/hltb.ts";
 import { readSteamGames, SteamGame } from "./data/steam-spy.ts";
 
+const RIGHT_PAD = 30;
+
 export async function report(
   filter: (game: SteamGame, hltb?: HltbGame) => boolean | undefined,
-  options: { json?: boolean, limit?: number } = {}) {
+  options: { json?: boolean, limit?: number, writeTo?: string } = {}) {
 
   const hltb = await readHltbGames();
   const steam = await readSteamGames({ limit: options.limit });
@@ -11,11 +14,13 @@ export async function report(
   const results = steam
     .filter(game => filter(game, hltb[game.Name]));
 
-  let formattedResults = formatResults(results, hltb, options);
+  let formattedResults = `${formatResults(results, hltb, options)}\n\n`
+    + rightPad(`Found ${results.length} matching games.`, RIGHT_PAD);
 
-
-  console.log(`${formattedResults}\n\n`
-    + rightPad(`Found ${results.length} matching games.`, 50));
+  console.log(formattedResults);
+  if (options.writeTo) {
+    fs.writeFileSync(options.writeTo, formattedResults);
+  }
 }
 
 function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, options: { json?: boolean }): string {
@@ -38,9 +43,10 @@ function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, opt
         const score = percPositive * (game["Positive"] / 10) * (game["Estimated owners"] / 1000);
         return ({
           score,
-          text: `${rightPad(`[${game.Name}]`, 50)} ${game["Release date"]} | ${formatKilos(game["Estimated owners"])} | ` +
+          text: `${rightPad(`[${game.Name}]`, RIGHT_PAD)} ${game["Release date"]} | ${formatKilos(game["Estimated owners"])} | ` +
             `${game["Positive"]} (${formatPercentage(percPositive)}) | ` +
-            `${playTime}h`
+            `${playTime}h\n` + 
+            `${' '.repeat(RIGHT_PAD)} ${ellipsify(game["Tags"], 50)}`
         })
       })
       .sort((a, b) => b.score - a.score)
@@ -60,4 +66,8 @@ function formatKilos(num: number): string {
 function rightPad(str: string, length: number, char: string = ' '): string {
   if (str.length >= length) return str;
   return char.repeat(length - str.length) + str;
+}
+
+function ellipsify(str: string, length: number): string {
+  return str.length > length? str.slice(0, length - 3) + '...' : str;
 }

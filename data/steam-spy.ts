@@ -28,7 +28,7 @@ export async function readSteamGames(options: { limit?: number } = {}): Promise<
     record["Median playtime forever"] = parseInt(record["Median playtime forever"]);
     record["Release date"] = parseInt(record["Release date"].split(' ')[2]);
     games.push(game);
-    if (options.limit && i++ > options.limit) break;
+    if (options.limit && options.limit > 0 && i++ > options.limit) break;
   }
   return games;
 };
