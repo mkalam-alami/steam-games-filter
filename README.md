@@ -4,7 +4,7 @@
 
 * `data/hltb.csv`
 
-Import `games.csv` from [Kaggle > howlongtobeat-games-completion-times](https://www.kaggle.com/datasets/kasumil5x/howlongtobeat-games-completion-times?resource=download&select=games.csv)
+Import `hltb_dataset.csv` from [Kaggle > how-long-to-beat-video-game-playtime-dataset](https://www.kaggle.com/datasets/b4n4n4p0wer/how-long-to-beat-video-game-playtime-dataset)
 
 * `data/steam-spy.csv`
 

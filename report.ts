@@ -17,7 +17,6 @@ export async function report(
   let formattedResults = `${formatResults(results, hltb, options)}\n\n`
     + rightPad(`Found ${results.length} matching games.`, RIGHT_PAD);
 
-  console.log(formattedResults);
   if (options.writeTo) {
     fs.writeFileSync(options.writeTo, formattedResults);
   }
