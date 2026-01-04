@@ -29,6 +29,9 @@ export async function readHtlbGames(): Promise<Record<string, HltbGame>> {
 export interface HltbGame {
   id: string;
   title: string;
+  /**
+   * In hours
+   */
   main_story: number;
   main_plus_extras: number;
   completionist: number;

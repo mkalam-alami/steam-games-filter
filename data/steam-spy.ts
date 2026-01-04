@@ -63,9 +63,21 @@ export interface SteamGame {
   Achievements: string,
   Recommendations: number,
   Notes: string,
+  /**
+   * In minutes
+   */
   "Average playtime forever": number,
+  /**
+   * In minutes
+   */
   "Average playtime two weeks": number,
+  /**
+   * In minutes
+   */
   "Median playtime forever": number,
+  /**
+   * In minutes
+   */
   "Median playtime two weeks": number,
   Developers: string,
   Publishers: string,
