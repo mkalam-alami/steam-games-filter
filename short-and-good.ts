@@ -12,5 +12,5 @@ import { report } from "./report.ts";
     !steam["Tags"].includes("Early Access") &&
     !steam["Tags"].includes("Sandbox") &&
     !steam["Tags"].includes("Multiplayer"),
-    { writeTo: 'short-and-good.out', limit: -1 });
+    { writeTo: 'short-and-good.md', limit: -1 });
 })();

@@ -26,5 +26,5 @@ const EXCLUDED_GAMES = [
     !steam["Tags"].includes("Pixel Graphics") &&
     !steam["Tags"].includes("Sandbox") &&
     !steam["Tags"].includes("Multiplayer"),
-    { writeTo: 'short-and-good-wan.out', limit: -1 });
+    { writeTo: 'short-and-good-wan.md', limit: -1 });
 })();

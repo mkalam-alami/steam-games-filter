@@ -7,5 +7,5 @@ import { report } from "./report.ts";
     steam["Release date"] < 2025 && // Dataset is from April 2025
     steam["Tags"].includes("Online Co-Op") &&
     !steam["Tags"].includes("Competitive"),
-    { writeTo: 'coop.out', limit: -1 });
+    { writeTo: 'coop.md', limit: -1 });
 })();

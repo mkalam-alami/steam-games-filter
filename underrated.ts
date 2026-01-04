@@ -12,5 +12,5 @@ import { report } from "./report.ts";
     !steam["Tags"].includes("Sexual") &&
     !steam["Tags"].includes("VR") &&
     !steam["Tags"].includes("Early Access"),
-    { writeTo: 'underrated.out', limit: -1 });
+    { writeTo: 'underrated.md', limit: -1 });
 })();
