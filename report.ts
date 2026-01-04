@@ -37,7 +37,7 @@ function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, opt
         const percPositive = game["Positive"] / (game["Positive"] + game["Negative"]);
         let playTime = hltb[game.Name] ? hltb[game.Name]?.main_story.toFixed(1) : ((game["Median playtime forever"] / 60) || 0).toFixed(1);
         playTime = playTime === 'NaN' ? (0).toFixed(1) : playTime;
-        const score = percPositive * (game["Positive"] / 10) * (game["Estimated owners"] / 1000);
+        const score = percPositive * (game["Positive"] / 10) * Math.max(1, Math.log10(game["Estimated owners"] / 1000));
         return ({
           score,
           text: `${rightPad(`[${game.Name}]`, RIGHT_PAD)} ` +
