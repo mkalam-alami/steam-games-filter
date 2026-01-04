@@ -40,9 +40,12 @@ function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, opt
         const score = percPositive * (game["Positive"] / 10) * (game["Estimated owners"] / 1000);
         return ({
           score,
-          text: `${rightPad(`[${game.Name}]`, RIGHT_PAD)} ${game["Release date"]} | ${formatKilos(game["Estimated owners"])} | ` +
+          text: `${rightPad(`[${game.Name}]`, RIGHT_PAD)} ` +
+
+            `${game["Release date"]} | ${formatKilos(game["Estimated owners"])} | ` +
             `${game["Positive"]} (${formatPercentage(percPositive)}) | ` +
-            `${playTime}h\n` + 
+            `${playTime}h | $${game["Price"]}\n` + 
+
             `${' '.repeat(RIGHT_PAD)} ${ellipsify(game["Tags"], 50)}`
         })
       })
