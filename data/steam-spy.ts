@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 const CSV_FILE = path.resolve(fileURLToPath(import.meta.url), '../steam-spy.csv')
 
 
-export async function readSteamGames(options: { limit?: number } = {}): Promise<SteamGame[]> {
+export async function readSteamGames(options: { limit?: number, find?: string } = {}): Promise<SteamGame[]> {
   const parser = fs.createReadStream(CSV_FILE).pipe(
     parse({
       delimiter: ',',
@@ -27,7 +27,9 @@ export async function readSteamGames(options: { limit?: number } = {}): Promise<
     record["Negative"] = parseInt(record["Negative"]);
     record["Median playtime forever"] = parseInt(record["Median playtime forever"]);
     record["Release date"] = parseInt(record["Release date"].split(' ')[2]);
-    games.push(game);
+    if (!options.find || game.Name.toLowerCase().includes(options.find.toLowerCase())) {
+      games.push(game);
+    }
     if (options.limit && options.limit > 0 && i++ > options.limit) break;
   }
   return games;

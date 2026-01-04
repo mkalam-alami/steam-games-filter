@@ -1,5 +1,5 @@
 import fs from "node:fs";
-import { HltbGame, readHtlbGames as readHltbGames } from "./data/hltb.ts";
+import { HltbGame, readHltbGames } from "./data/hltb.ts";
 import { readSteamGames, SteamGame } from "./data/steam-spy.ts";
 
 const RIGHT_PAD = 30;
@@ -10,13 +10,11 @@ export async function report(
 
   const hltb = await readHltbGames();
   const steam = await readSteamGames({ limit: options.limit });
-
-  const results = steam
-    .filter(game => filter(game, hltb[game.Name]));
+  const results = steam.filter(game => filter(game, hltb[game.Name]));
 
   let formattedResults = `${formatResults(results, hltb, options)}\n\n`
     + rightPad(`Found ${results.length} matching games.`, RIGHT_PAD);
-
+  console.log(formattedResults);
   if (options.writeTo) {
     fs.writeFileSync(options.writeTo, formattedResults);
   }

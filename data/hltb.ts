@@ -5,7 +5,7 @@ import { fileURLToPath } from "node:url";
 
 const CSV_FILE = path.resolve(fileURLToPath(import.meta.url), '../hltb.csv')
 
-export async function readHtlbGames(): Promise<Record<string, HltbGame>> {
+export async function readHltbGames(): Promise<Record<string, HltbGame>> {
   const parser = fs.createReadStream(CSV_FILE).pipe(
     parse({
       delimiter: ',',
