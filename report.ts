@@ -33,12 +33,14 @@ function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, opt
     return results
       .map(game => {
         const percPositive = game["Positive"] / (game["Positive"] + game["Negative"]);
-        const score = percPositive * (game["Positive"] / 10) * (game["Estimated owners"] / 1000) * (10 - hltb[game.Name].main_story);
+        let playTime = hltb[game.Name] ? hltb[game.Name]?.main_story.toFixed(1) : ((game["Median playtime forever"] / 60) || 0).toFixed(1);
+        playTime = playTime === 'NaN' ? (0).toFixed(1) : playTime;
+        const score = percPositive * (game["Positive"] / 10) * (game["Estimated owners"] / 1000);
         return ({
           score,
           text: `${rightPad(`[${game.Name}]`, 50)} ${game["Release date"]} | ${formatKilos(game["Estimated owners"])} | ` +
             `${game["Positive"]} (${formatPercentage(percPositive)}) | ` +
-            `${hltb[game.Name].main_story.toFixed(1)}h`
+            `${playTime}h`
         })
       })
       .sort((a, b) => b.score - a.score)
@@ -56,5 +58,6 @@ function formatKilos(num: number): string {
 }
 
 function rightPad(str: string, length: number, char: string = ' '): string {
+  if (str.length >= length) return str;
   return char.repeat(length - str.length) + str;
 }
