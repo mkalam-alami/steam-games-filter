@@ -46,7 +46,7 @@ function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, opt
             `${game["Positive"]} (${formatPercentage(percPositive)}) | ` +
             `${playTime}h | $${game["Price"]}\n` + 
 
-            `${' '.repeat(RIGHT_PAD)} ${ellipsify(game["Tags"], 50)}`
+            `${' '.repeat(RIGHT_PAD)} ${ellipsify(game["Tags"], 80)}`
         })
       })
       .sort((a, b) => b.score - a.score)
