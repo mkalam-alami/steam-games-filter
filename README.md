@@ -1,13 +1,5 @@
 # Steam Games Filter
 
-## Example
-
-```typescript
-npm install
-npm start short-and-good
-npm start underrated
-```
-
 ## Required CSV datasets
 
 * `data/hltb.csv`
@@ -17,3 +9,11 @@ Import `games.csv` from [Kaggle > howlongtobeat-games-completion-times](https://
 * `data/steam-spy.csv`
 
 Import `games.csv` from [HuggingFace > steam-games-dataset](https://huggingface.co/datasets/FronkonGames/steam-games-dataset/tree/main)
+
+## Getting started
+
+```typescript
+npm install
+npm start short-and-good
+npm start underrated
+```
