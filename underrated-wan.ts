@@ -9,7 +9,7 @@ const EXCLUDED_GAMES = [
 (async () => {
   await report((steam, hltb) =>
     steam["Estimated owners"] < 100000 &&
-    steam["Release date"] > 2020 &&
+    steam["Release date"] > 2013 &&
     steam["Positive"] > 10 &&
     steam["Positive"] < 100 &&
     steam["Median playtime forever"] > 0 &&

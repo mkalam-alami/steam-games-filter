@@ -17,7 +17,7 @@ const EXCLUDED_GAMES = [
     steam["Positive"] > 1000 &&
     (steam["Positive"] / (steam["Positive"] + steam["Negative"]) >= 0.9) &&
     !EXCLUDED_GAMES.includes(steam.Name) &&
-    steam["Release date"] > 2020 && steam["Release date"] < 2025 && // Dataset is from April 2025
+    steam["Release date"] > 2013 && steam["Release date"] < 2025 && // Dataset is from April 2025
     !steam["Tags"].includes("Sexual") &&
     !steam["Tags"].includes("VR") &&
     !steam["Tags"].includes("Early Access") &&

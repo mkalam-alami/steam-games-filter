@@ -1,57 +1,101 @@
-          Underground Blossom: 2023 | 100k👥 | 4199👍 (98%) | 2.1h🏁 | $4.99🏷️
-                               https://store.steampowered.com/app/2291850
-                               Adventure,Escape Room,Indie,Puzzle,Point & Click,Singleplayer,Mystery,Story R...
+# 
+| Name | Details |
+| ---- | ------- |
+| Little Nightmares | https://store.steampowered.com/app/424840  <br />2017 / 2000k👥 / 75367👍 (95%) / 3.6h🏁 / $19.99🏷️  <br />Horror,Atmospheric,Adventure,Singleplayer,Dark,Puzzle-Platformer,Puzzle,Indie... |
+| A Dance of Fire and Ice | https://store.steampowered.com/app/977950  <br />2019 / 1000k👥 / 39971👍 (94%) / 3.5h🏁 / $5.99🏷️  <br />Rhythm,Music,Indie,Difficult,Great Soundtrack,Singleplayer,2D,Level Editor,Ac... |
+| The Henry Stickmin Collection | https://store.steampowered.com/app/1089980  <br />2020 / 1000k👥 / 31088👍 (99%) / 2.3h🏁 / $14.99🏷️  <br />Funny,Choose Your Own Adventure,Multiple Endings,Memes,Comedy,Classic,Singlep... |
+| A Story About My Uncle | https://store.steampowered.com/app/278360  <br />2014 / 5000k👥 / 25589👍 (92%) / 3.1h🏁 / $14.99🏷️  <br />Adventure,First-Person,Parkour,Singleplayer,Indie,Atmospheric,Platformer,Stor... |
+| Five Nights at Freddy's | https://store.steampowered.com/app/319510  <br />2014 / 1000k👥 / 31124👍 (92%) / 2.4h🏁 / $4.99🏷️  <br />Horror,Singleplayer,Survival Horror,Robots,Psychological Horror,Difficult,Ind... |
+| SUPERHOT | https://store.steampowered.com/app/322500  <br />2016 / 1000k👥 / 27409👍 (90%) / 2.5h🏁 / $24.99🏷️  <br />Action,FPS,Bullet Time,Time Manipulation,Indie,Singleplayer,First-Person,Shoo... |
+| What Remains of Edith Finch | https://store.steampowered.com/app/501300  <br />2017 / 500k👥 / 25897👍 (96%) / 2.2h🏁 / $19.99🏷️  <br />Story Rich,Atmospheric,Walking Simulator,First-Person,Exploration,Mystery,Adv... |
+| Superliminal | https://store.steampowered.com/app/1049410  <br />2020 / 1000k👥 / 17104👍 (95%) / 2.7h🏁 / $19.99🏷️  <br />Puzzle,Narration,First-Person,Physics,Surreal,Singleplayer,Psychological,Stor... |
+| Five Nights at Freddy's 2 | https://store.steampowered.com/app/332800  <br />2014 / 500k👥 / 14402👍 (94%) / 3.2h🏁 / $7.99🏷️  <br />Horror,Singleplayer,Survival Horror,Robots,Psychological Horror,Difficult,Fir... |
+| Refunct | https://store.steampowered.com/app/406150  <br />2015 / 200k👥 / 15798👍 (96%) / 0.4h🏁 / $2.99🏷️  <br />Parkour,Relaxing,3D Platformer,Short,Puzzle-Platformer,Platformer,Casual,Firs... |
+| ISLANDERS | https://store.steampowered.com/app/1046030  <br />2019 / 500k👥 / 13433👍 (95%) / 3.1h🏁 / $4.99🏷️  <br />Relaxing,City Builder,Strategy,Building,Puzzle,Indie,Minimalist,Singleplayer,... |
+| The Room Two | https://store.steampowered.com/app/425580  <br />2016 / 200k👥 / 14447👍 (98%) / 3.3h🏁 / $4.99🏷️  <br />Puzzle,Mystery,Point & Click,Atmospheric,Hidden Object,Adventure,Indie,Horror... |
+| FAR: Lone Sails | https://store.steampowered.com/app/609320  <br />2018 / 500k👥 / 10524👍 (94%) / 3.1h🏁 / $14.99🏷️  <br />Atmospheric,Adventure,Indie,Post-apocalyptic,Great Soundtrack,Exploration,Sin... |
+| Gorogoa | https://store.steampowered.com/app/557600  <br />2017 / 200k👥 / 11465👍 (97%) / 1.8h🏁 / $14.99🏷️  <br />Puzzle,Hand-drawn,Indie,Beautiful,Singleplayer,Atmospheric,Adventure,Casual,S... |
+| Five Nights at Freddy's 4 | https://store.steampowered.com/app/388090  <br />2015 / 500k👥 / 9527👍 (93%) / 3.0h🏁 / $7.99🏷️  <br />Horror,Survival Horror,Singleplayer,Robots,First-Person,Dark,Difficult,Point ... |
+| Superflight | https://store.steampowered.com/app/732430  <br />2017 / 200k👥 / 9612👍 (97%) / 1.1h🏁 / $2.99🏷️  <br />Indie,Flight,Relaxing,Casual,Procedural Generation,Atmospheric,Singleplayer,A... |
+| Five Nights at Freddy's: Sister Location | https://store.steampowered.com/app/506610  <br />2016 / 500k👥 / 8389👍 (91%) / 3.2h🏁 / $7.99🏷️  <br />Horror,Survival Horror,Singleplayer,Robots,First-Person,Dark,Difficult,Surviv... |
+| Zup! S | https://store.steampowered.com/app/617670  <br />2018 / 100k👥 / 10075👍 (98%) / 1.4h🏁 / $0.99🏷️  <br />Casual,Indie,Puzzle,2D,Physics,Relaxing,Singleplayer,Minimalist,Short,Fast-Pa... |
+| Zup! | https://store.steampowered.com/app/533300  <br />2016 / 500k👥 / 7687👍 (94%) / 0.5h🏁 / $0.99🏷️  <br />Puzzle,Casual,Physics,Indie,Relaxing,Minimalist,2D,Short,Singleplayer,Fast-Pa... |
+| 60 Seconds! Reatomized | https://store.steampowered.com/app/1012880  <br />2019 / 500k👥 / 7637👍 (94%) / 2.6h🏁 / $9.99🏷️  <br />Strategy,Simulation,Survival,Post-apocalyptic,Casual,Choices Matter,Adventure... |
+| Hidden Folks | https://store.steampowered.com/app/435400  <br />2017 / 200k👥 / 7814👍 (97%) / 3.6h🏁 / $12.99🏷️  <br />Hidden Object,Casual,Hand-drawn,Indie,Puzzle,Point & Click,Funny,2D,Relaxing,... |
+| Glass Masquerade | https://store.steampowered.com/app/511470  <br />2016 / 1000k👥 / 5375👍 (97%) / 4.0h🏁 / $4.99🏷️  <br />Puzzle,Relaxing,Casual,Indie,Atmospheric,Great Soundtrack,Beautiful,Singlepla... |
+| Florence | https://store.steampowered.com/app/1102130  <br />2020 / 200k👥 / 6945👍 (94%) / 0.7h🏁 / $5.99🏷️  <br />Indie,Casual,Adventure,Romance,Story Rich,Cute,Female Protagonist,Drama,Music... |
+| Zup! F | https://store.steampowered.com/app/601220  <br />2019 / 100k👥 / 7346👍 (97%) / 1.8h🏁 / $0.99🏷️  <br />Casual,Indie,Puzzle,Minimalist,Relaxing,Fast-Paced,2D,Physics,Singleplayer,Sh... |
+| The Silent Age | https://store.steampowered.com/app/352520  <br />2015 / 200k👥 / 6162👍 (93%) / 3.3h🏁 / $9.99🏷️  <br />Point & Click,Side Scroller,Psychological Horror,Adventure,Alternate History,... |
+| Zup! 2 | https://store.steampowered.com/app/562220  <br />2016 / 200k👥 / 5941👍 (96%) / 1.1h🏁 / $0.99🏷️  <br />Indie,Casual,Puzzle,Singleplayer,Physics,Minimalist,2D,Relaxing,Short,Great S... |
+| Rusty Lake Hotel | https://store.steampowered.com/app/435120  <br />2016 / 200k👥 / 5622👍 (96%) / 2.0h🏁 / $1.99🏷️  <br />Puzzle,Point & Click,Indie,Adventure,Horror,Psychological Horror,Surreal,Sing... |
+| Sayonara Wild Hearts | https://store.steampowered.com/app/1122720  <br />2019 / 100k👥 / 6285👍 (97%) / 1.4h🏁 / $12.99🏷️  <br />Great Soundtrack,Rhythm,Music,Action,Casual,Beautiful,Female Protagonist,Arca... |
+| Donut County | https://store.steampowered.com/app/702670  <br />2018 / 200k👥 / 5756👍 (90%) / 1.9h🏁 / $12.99🏷️  <br />Indie,Casual,Cute,Funny,Adventure,Puzzle,Physics,Short,Great Soundtrack,Story... |
+| Zup! X | https://store.steampowered.com/app/508900  <br />2018 / 100k👥 / 5752👍 (97%) / 1.4h🏁 / $0.99🏷️  <br />Casual,Indie,Puzzle,Relaxing,2D,Physics,Minimalist,Singleplayer,Short,Great S... |
+| Hexcells | https://store.steampowered.com/app/265890  <br />2014 / 200k👥 / 4820👍 (97%) / 1.9h🏁 / $0.89🏷️  <br />Puzzle,Casual,Indie,Singleplayer,Logic,Minimalist,Strategy,Short,Relaxing,2D,... |
+| Zup! 3 | https://store.steampowered.com/app/575640  <br />2017 / 200k👥 / 4645👍 (90%) / 1.0h🏁 / $0.99🏷️  <br />Casual,Puzzle,Indie,Minimalist,Relaxing,Singleplayer,Physics,2D,Short,Fast-Pa... |
+| The White Door | https://store.steampowered.com/app/1145960  <br />2020 / 200k👥 / 4077👍 (94%) / 2.1h🏁 / $3.99🏷️  <br />Indie,Adventure,Puzzle,Point & Click,Short,Detective,Mystery,Story Rich,Atmos... |
+| klocki | https://store.steampowered.com/app/499440  <br />2016 / 100k👥 / 4350👍 (97%) / 1.2h🏁 / $1.99🏷️  <br />Relaxing,Puzzle,Casual,Minimalist,Singleplayer,Logic,Mouse only,Short,Indie,2... |
+| Underground Blossom | https://store.steampowered.com/app/2291850  <br />2023 / 100k👥 / 4199👍 (98%) / 2.1h🏁 / $4.99🏷️  <br />Adventure,Escape Room,Indie,Puzzle,Point & Click,Singleplayer,Mystery,Story R... |
+| The Test: Hypothesis Rising | https://store.steampowered.com/app/1282200  <br />2020 / 50k👥 / 4916👍 (98%) / 0.7h🏁 / $1.99🏷️  <br />Multiple Endings,Story Rich,Psychological Horror,Simulation,Atmospheric,Psych... |
+| The Test: Final Revelation | https://store.steampowered.com/app/1428310  <br />2020 / 50k👥 / 4378👍 (98%) / 1.2h🏁 / $1.99🏷️  <br />Simulation,Choose Your Own Adventure,Choices Matter,Multiple Endings,Visual N... |
+| Another Adventure | https://store.steampowered.com/app/604450  <br />2017 / 100k👥 / 3935👍 (91%) / 0.9h🏁 / $1.99🏷️  <br />Indie,Adventure,Drama,Puzzle,Visual Novel |
+| Zup! 8 | https://store.steampowered.com/app/799070  <br />2018 / 100k👥 / 3537👍 (96%) / 1.5h🏁 / $0.99🏷️  <br />Indie,Puzzle,Casual,Singleplayer,2D,Physics,Relaxing,Minimalist,Short,Fast-Pa... |
+| Zup! Z | https://store.steampowered.com/app/1218900  <br />2020 / 100k👥 / 3472👍 (97%) / 1.3h🏁 / $0.99🏷️  <br />Puzzle,Casual,Indie,Fast-Paced,2D,Physics,Short,Relaxing,Minimalist,Puzzle-Pl... |
+| Rusty Lake Paradise | https://store.steampowered.com/app/744190  <br />2018 / 200k👥 / 3088👍 (95%) / 3.6h🏁 / $3.99🏷️  <br />Puzzle,Point & Click,Indie,Adventure,Psychological Horror,Horror,Atmospheric,... |
+| HIVESWAP: ACT 1 | https://store.steampowered.com/app/623940  <br />2017 / 100k👥 / 3522👍 (93%) / 2.5h🏁 / $7.99🏷️  <br />Adventure,Point & Click,Great Soundtrack,RPG,Indie,Memes,Female Protagonist,A... |
+| Tattletail | https://store.steampowered.com/app/568090  <br />2016 / 200k👥 / 2620👍 (93%) / 1.4h🏁 / $4.99🏷️  <br />Horror,First-Person,Survival Horror,Singleplayer,1990's,Cute,Indie,Action,Dar... |
+| Mouthwashing | https://store.steampowered.com/app/2475490  <br />2024 / 50k👥 / 3370👍 (97%) / 2.5h🏁 / $12.99🏷️  <br />Psychological Horror,Atmospheric,Horror,Story Rich,Thriller,Retro,Psychologic... |
+| Zenge | https://store.steampowered.com/app/461840  <br />2016 / 100k👥 / 2722👍 (95%) / 1.8h🏁 / $0.99🏷️  <br />Puzzle,Indie,Casual,Minimalist,Relaxing,Great Soundtrack,Singleplayer,Short,A... |
+| Alba: A Wildlife Adventure | https://store.steampowered.com/app/1337010  <br />2020 / 50k👥 / 3084👍 (98%) / 2.6h🏁 / $16.99🏷️  <br />Casual,Family Friendly,Female Protagonist,Adventure,Nature,3D,Exploration,Sto... |
+| Exo One | https://store.steampowered.com/app/773370  <br />2021 / 100k👥 / 2741👍 (91%) / 2.3h🏁 / $16.99🏷️  <br />Atmospheric,Exploration,Flight,Space,Adventure,Physics,Walking Simulator,Rela... |
+| The Operator | https://store.steampowered.com/app/1771980  <br />2024 / 200k👥 / 2192👍 (93%) / 3.6h🏁 / $12.59🏷️  <br />Conspiracy,Investigation,Detective,Atmospheric,Puzzle,Immersive Sim,Mystery,T... |
+| Boris and the Dark Survival | https://store.steampowered.com/app/1236990  <br />2020 / 200k👥 / 2186👍 (93%) / 2.0h🏁 / $2.99🏷️  <br />Action,Adventure,Indie,Strategy,Horror,Casual,Survival Horror,Survival,Single... |
+| Zup! 5 | https://store.steampowered.com/app/645090  <br />2017 / 100k👥 / 2374👍 (94%) / 1.1h🏁 / $0.99🏷️  <br />Casual,Indie,Puzzle,2D,Singleplayer,Minimalist,Relaxing,Physics,Short,Fast-Pa... |
+| The Haunted Island, a Frog Detective Game | https://store.steampowered.com/app/963000  <br />2018 / 50k👥 / 2818👍 (92%) / 0.8h🏁 / $4.99🏷️  <br />Comedy,Funny,Short,Cute,Detective,Mystery,Casual,Relaxing,Exploration,Colorfu... |
+| Zup! 4 | https://store.steampowered.com/app/591420  <br />2017 / 100k👥 / 2440👍 (90%) / 0.9h🏁 / $0.99🏷️  <br />Casual,Indie,Puzzle,Minimalist,2D,Singleplayer,Short,Fast-Paced,Cute |
+| Zup! Zero | https://store.steampowered.com/app/610360  <br />2017 / 100k👥 / 2284👍 (94%) / 1.0h🏁 / $0.99🏷️  <br />Indie,Casual,Puzzle,2D,Minimalist,Physics,Relaxing,Singleplayer,Short,Fast-Pa... |
+| Lightmatter | https://store.steampowered.com/app/994140  <br />2020 / 200k👥 / 2014👍 (92%) / 3.9h🏁 / $0.0🏷️  <br />Logic,Indie,Adventure,Puzzle,First-Person,3D,Sci-fi,Atmospheric,Science,Dark ... |
+| Tormentum - Dark Sorrow | https://store.steampowered.com/app/335000  <br />2015 / 100k👥 / 2254👍 (94%) / 3.3h🏁 / $11.99🏷️  <br />Point & Click,Dark Fantasy,Adventure,Dark,Puzzle,Indie,Atmospheric,Horror,Gre... |
+| Choo-Choo Charles | https://store.steampowered.com/app/1766740  <br />2022 / 50k👥 / 2696👍 (91%) / 2.3h🏁 / $19.99🏷️  <br />Survival Horror,Open World,Horror,First-Person,Shooter,Dark,Action-Adventure,... |
+| When The Past Was Around | https://store.steampowered.com/app/1164050  <br />2020 / 50k👥 / 2372👍 (96%) / 1.7h🏁 / $7.99🏷️  <br />Hidden Object,Surreal,Female Protagonist,Cute,Relaxing,Atmospheric,Interactiv... |
+| Zup! 6 | https://store.steampowered.com/app/566160  <br />2017 / 100k👥 / 2006👍 (95%) / 1.3h🏁 / $0.99🏷️  <br />Indie,Casual,Puzzle,Short,Minimalist,Physics,Relaxing,2D,Singleplayer,Fast-Pa... |
+| Thank Goodness You're Here! | https://store.steampowered.com/app/2366980  <br />2024 / 50k👥 / 2244👍 (97%) / 2.4h🏁 / $19.99🏷️  <br />Adventure,Comedy,Hand-drawn,Funny,Exploration,2D Platformer,Casual,Platformer... |
+| Summer of '58 | https://store.steampowered.com/app/1609080  <br />2021 / 50k👥 / 2242👍 (91%) / 1.6h🏁 / $8.99🏷️  <br />Thriller,Horror,Atmospheric,Psychological Horror,Walking Simulator,Cinematic,... |
+| Cats Organized Neatly | https://store.steampowered.com/app/1369340  <br />2020 / 50k👥 / 1934👍 (98%) / 2.4h🏁 / $2.09🏷️  <br />Cats,Puzzle,Relaxing,Casual,Cute,Funny,Memes,Cartoony,Hand-drawn,Colorful,Fam... |
+| Severed Steel | https://store.steampowered.com/app/1227690  <br />2021 / 100k👥 / 1699👍 (94%) / 3.2h🏁 / $24.99🏷️  <br />FPS,Action,Bullet Time,Parkour,Shooter,First-Person,Female Protagonist,Styliz... |
+| Year Walk | https://store.steampowered.com/app/269050  <br />2014 / 100k👥 / 1722👍 (91%) / 1.6h🏁 / $5.99🏷️  <br />Horror,Indie,Adventure,Atmospheric,Puzzle,Point & Click,Story Rich,Surreal,Da... |
+| Choice of Robots | https://store.steampowered.com/app/339350  <br />2014 / 50k👥 / 1860👍 (97%) / 2.5h🏁 / $5.99🏷️  <br />Choose Your Own Adventure,Text-Based,Choices Matter,Interactive Fiction,Indie... |
+| Boson X | https://store.steampowered.com/app/302610  <br />2014 / 200k👥 / 1426👍 (93%) / 3.8h🏁 / $2.99🏷️  <br />Difficult,Action,Arcade,Runner,Minimalist,Parkour,Science,Psychedelic,Fast-Pa... |
+| Zup! 7 | https://store.steampowered.com/app/658560  <br />2017 / 50k👥 / 1834👍 (96%) / 1.4h🏁 / $0.99🏷️  <br />Casual,Puzzle,Indie,Physics,Minimalist,Short,Relaxing,2D,Fast-Paced,Cute |
+| Smile For Me | https://store.steampowered.com/app/1018850  <br />2019 / 50k👥 / 1808👍 (97%) / 3.6h🏁 / $12.99🏷️  <br />Puzzle,Point & Click,2D,Cute,First-Person,LGBTQ+,Funny,3D,Horror,Psychologica... |
+| Bad Dream: Coma | https://store.steampowered.com/app/538070  <br />2017 / 100k👥 / 1612👍 (92%) / 3.8h🏁 / $8.99🏷️  <br />Adventure,Point & Click,Horror,Indie,Gore,Atmospheric,Singleplayer,Hand-drawn... |
+| 80 Days | https://store.steampowered.com/app/381780  <br />2015 / 100k👥 / 1592👍 (91%) / 3.0h🏁 / $12.99🏷️  <br />Adventure,Story Rich,Choices Matter,Indie,Strategy,Choose Your Own Adventure,... |
+| Hidden Through Time | https://store.steampowered.com/app/524910  <br />2020 / 50k👥 / 1705👍 (94%) / 3.2h🏁 / $7.99🏷️  <br />Hidden Object,Casual,Puzzle,Point & Click,2D,Family Friendly,Cute,Collectatho... |
+| Milo and the Magpies | https://store.steampowered.com/app/1407420  <br />2021 / 50k👥 / 1624👍 (99%) / 1.0h🏁 / $1.99🏷️  <br />Adventure,Point & Click,Exploration,Hidden Object,Hand-drawn,Colorful,Cute,Ca... |
+| FRAMED Collection | https://store.steampowered.com/app/322450  <br />2018 / 100k👥 / 1428👍 (93%) / 2.9h🏁 / $9.99🏷️  <br />Indie,Casual,Puzzle,Adventure,Noir,Comic Book,Singleplayer,Minimalist,Touch-F... |
+| Nightmares from the Deep: The Cursed Heart | https://store.steampowered.com/app/259740  <br />2014 / 100k👥 / 1432👍 (92%) / 3.6h🏁 / $0.0🏷️  <br />Hidden Object,Adventure,Casual,Point & Click,Puzzle,Pirates,Female Protagonis... |
+| Nightmare of Decay | https://store.steampowered.com/app/1848450  <br />2022 / 50k👥 / 1547👍 (98%) / 2.5h🏁 / $3.99🏷️  <br />Action,FPS,Horror,Action-Adventure,First-Person,1990's,Indie,Gore,Violent,Zom... |
+| Later Alligator | https://store.steampowered.com/app/966320  <br />2019 / 50k👥 / 1530👍 (97%) / 2.6h🏁 / $17.99🏷️  <br />Indie,Point & Click,Cute,Funny,Cartoony,Mystery,Great Soundtrack,Singleplayer... |
+| Fears to Fathom - Ironbark Lookout | https://store.steampowered.com/app/2506160  <br />2023 / 50k👥 / 1606👍 (93%) / 2.2h🏁 / $5.99🏷️  <br />Horror,Atmospheric,Psychological Horror,Narrative,Exploration,Adventure,Thril... |
+| a new life. | https://store.steampowered.com/app/1297160  <br />2020 / 50k👥 / 1525👍 (97%) / 0.5h🏁 / $2.99🏷️  <br />Indie,LGBTQ+,Visual Novel,Romance,Emotional,Female Protagonist,Multiple Endin... |
+| The Crown of Leaves | https://store.steampowered.com/app/604330  <br />2018 / 50k👥 / 1485👍 (97%) / 1.6h🏁 / $3.74🏷️  <br />Adventure,Indie,Visual Novel,Point & Click,Story Rich,Fantasy,Atmospheric,Cho... |
+| The Gardens Between | https://store.steampowered.com/app/600990  <br />2018 / 20k👥 / 1927👍 (94%) / 2.5h🏁 / $19.99🏷️  <br />Short,Time Manipulation,Emotional,Story Rich,Walking Simulator,Nostalgia,Surr... |
+| Hoa | https://store.steampowered.com/app/1484900  <br />2021 / 50k👥 / 1532👍 (90%) / 2.4h🏁 / $14.99🏷️  <br />2D Platformer,Relaxing,Atmospheric,Action-Adventure,Hand-drawn,Singleplayer,C... |
+| Predynastic Egypt | https://store.steampowered.com/app/461620  <br />2016 / 50k👥 / 1474👍 (92%) / 3.7h🏁 / $9.99🏷️  <br />Indie,Singleplayer,Strategy,Survival,Simulation,Atmospheric,Story Rich,Buildi... |
+| Incredibox | https://store.steampowered.com/app/1545450  <br />2021 / 50k👥 / 1362👍 (98%) / 0.4h🏁 / $4.99🏷️  <br />Casual,Rhythm,Cartoony,2D,Audio Production,Stylized,Family Friendly,Relaxing,... |
+| The Magic Circle | https://store.steampowered.com/app/323380  <br />2015 / 100k👥 / 1219👍 (92%) / 3.7h🏁 / $19.99🏷️  <br />Adventure,Indie,Puzzle,Story Rich,Simulation,Action,First-Person,Satire,Strat... |
+| TSIOQUE | https://store.steampowered.com/app/393190  <br />2018 / 50k👥 / 1374👍 (96%) / 3.0h🏁 / $13.99🏷️  <br />Adventure,Point & Click,Indie,Story Rich,Puzzle,Atmospheric,Singleplayer,Fema... |
+| Abyss: The Wraiths of Eden | https://store.steampowered.com/app/284710  <br />2014 / 100k👥 / 1182👍 (91%) / 3.5h🏁 / $9.99🏷️  <br />Hidden Object,Adventure,Casual,Point & Click,Puzzle,Female Protagonist,Horror... |
+| Zup! 9 | https://store.steampowered.com/app/1098340  <br />2019 / 50k👥 / 1308👍 (96%) / 1.3h🏁 / $0.99🏷️  <br />Casual,Indie,Puzzle,Physics,Minimalist,2D,Singleplayer,Relaxing,Short,Fast-Pa... |
+| KAMI | https://store.steampowered.com/app/272040  <br />2014 / 100k👥 / 1112👍 (96%) / 2.1h🏁 / $3.99🏷️  <br />Puzzle,Casual,Indie,Relaxing,2D,Singleplayer,Colorful,Touch-Friendly,Difficul... |
+| Grim Legends 2: Song of the Dark Swan | https://store.steampowered.com/app/279800  <br />2015 / 100k👥 / 1098👍 (96%) / 3.8h🏁 / $9.99🏷️  <br />Hidden Object,Casual,Adventure,Point & Click,Female Protagonist,Puzzle,Myster... |
+| My Brother Rabbit | https://store.steampowered.com/app/855640  <br />2018 / 50k👥 / 1282👍 (97%) / 3.8h🏁 / $14.99🏷️  <br />Adventure,Puzzle,Point & Click,Singleplayer,Great Soundtrack,2D,Story Rich,Hi... |
+| IS Defense | https://store.steampowered.com/app/448370  <br />2016 / 50k👥 / 1305👍 (93%) / 3.5h🏁 / $5.99🏷️  <br />Action,Indie,Shooter,On-Rails Shooter,War,First-Person,Singleplayer,FPS,Violent |
+| That Dragon, Cancer | https://store.steampowered.com/app/419460  <br />2016 / 50k👥 / 1195👍 (91%) / 1.9h🏁 / $9.99🏷️  <br />Indie,Story Rich,Adventure,Emotional,Walking Simulator,Narration,Atmospheric,... |
+| Swarmlake | https://store.steampowered.com/app/793350  <br />2018 / 20k👥 / 1462👍 (96%) / 0.8h🏁 / $2.99🏷️  <br />FPS,Arena Shooter,Retro,Bullet Hell,First-Person,Great Soundtrack,Atmospheric... |
+| Murder House | https://store.steampowered.com/app/1064460  <br />2020 / 20k👥 / 1357👍 (97%) / 2.9h🏁 / $11.99🏷️  <br />Horror,1980s,Survival Horror,Old School,Retro,Psychological Horror,Gore,3D,Vi... |
+| Paper Bride | https://store.steampowered.com/app/1735950  <br />2021 / 50k👥 / 1070👍 (92%) / 3.4h🏁 / $7.99🏷️  <br />Horror,Puzzle,2D,Drama,Mystery,Detective,Atmospheric,Thriller,Casual,Singlepl... |
+| Frog Detective 2: The Case of the Invisible Wizard | https://store.steampowered.com/app/1047220  <br />2019 / 20k👥 / 1073👍 (95%) / 1.2h🏁 / $4.99🏷️  <br />Comedy,Casual,Short,Funny,Cute,Detective,Mystery,Colorful,Investigation,Relax... |
+| If Found... | https://store.steampowered.com/app/1041920  <br />2020 / 20k👥 / 1034👍 (90%) / 2.2h🏁 / $12.99🏷️  <br />Indie,Casual,LGBTQ+,Visual Novel,Adventure,Story Rich,Great Soundtrack,Beauti... |
 
-                 Mouthwashing: 2024 | 50k👥 | 3370👍 (97%) | 2.5h🏁 | $12.99🏷️
-                               https://store.steampowered.com/app/2475490
-                               Psychological Horror,Atmospheric,Horror,Story Rich,Thriller,Retro,Psychologic...
-
-                      Exo One: 2021 | 100k👥 | 2741👍 (91%) | 2.3h🏁 | $16.99🏷️
-                               https://store.steampowered.com/app/773370
-                               Atmospheric,Exploration,Flight,Space,Adventure,Physics,Walking Simulator,Rela...
-
-                 The Operator: 2024 | 200k👥 | 2192👍 (93%) | 3.6h🏁 | $12.59🏷️
-                               https://store.steampowered.com/app/1771980
-                               Conspiracy,Investigation,Detective,Atmospheric,Puzzle,Immersive Sim,Mystery,T...
-
-            Choo-Choo Charles: 2022 | 50k👥 | 2696👍 (91%) | 2.3h🏁 | $19.99🏷️
-                               https://store.steampowered.com/app/1766740
-                               Survival Horror,Open World,Horror,First-Person,Shooter,Dark,Action-Adventure,...
-
-  Thank Goodness You're Here!: 2024 | 50k👥 | 2244👍 (97%) | 2.4h🏁 | $19.99🏷️
-                               https://store.steampowered.com/app/2366980
-                               Adventure,Comedy,Hand-drawn,Funny,Exploration,2D Platformer,Casual,Platformer...
-
-                Summer of '58: 2021 | 50k👥 | 2242👍 (91%) | 1.6h🏁 | $8.99🏷️
-                               https://store.steampowered.com/app/1609080
-                               Thriller,Horror,Atmospheric,Psychological Horror,Walking Simulator,Cinematic,...
-
-                Severed Steel: 2021 | 100k👥 | 1699👍 (94%) | 3.2h🏁 | $24.99🏷️
-                               https://store.steampowered.com/app/1227690
-                               FPS,Action,Bullet Time,Parkour,Shooter,First-Person,Female Protagonist,Styliz...
-
-         Milo and the Magpies: 2021 | 50k👥 | 1624👍 (99%) | 1.0h🏁 | $1.99🏷️
-                               https://store.steampowered.com/app/1407420
-                               Adventure,Point & Click,Exploration,Hidden Object,Hand-drawn,Colorful,Cute,Ca...
-
-           Nightmare of Decay: 2022 | 50k👥 | 1547👍 (98%) | 2.5h🏁 | $3.99🏷️
-                               https://store.steampowered.com/app/1848450
-                               Action,FPS,Horror,Action-Adventure,First-Person,1990's,Indie,Gore,Violent,Zom...
-
-Fears to Fathom - Ironbark Lookout: 2023 | 50k👥 | 1606👍 (93%) | 2.2h🏁 | $5.99🏷️
-                               https://store.steampowered.com/app/2506160
-                               Horror,Atmospheric,Psychological Horror,Narrative,Exploration,Adventure,Thril...
-
-                          Hoa: 2021 | 50k👥 | 1532👍 (90%) | 2.4h🏁 | $14.99🏷️
-                               https://store.steampowered.com/app/1484900
-                               2D Platformer,Relaxing,Atmospheric,Action-Adventure,Hand-drawn,Singleplayer,C...
-
-                   Incredibox: 2021 | 50k👥 | 1362👍 (98%) | 0.4h🏁 | $4.99🏷️
-                               https://store.steampowered.com/app/1545450
-                               Casual,Rhythm,Cartoony,2D,Audio Production,Stylized,Family Friendly,Relaxing,...
-
-                  Paper Bride: 2021 | 50k👥 | 1070👍 (92%) | 3.4h🏁 | $7.99🏷️
-                               https://store.steampowered.com/app/1735950
-                               Horror,Puzzle,2D,Drama,Mystery,Detective,Atmospheric,Thriller,Casual,Singlepl...
-
-      Found 14 matching games.
+96 matching games.

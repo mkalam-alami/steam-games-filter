@@ -6,21 +6,21 @@ const RIGHT_PAD = 30;
 
 export async function report(
   filter: (game: SteamGame, hltb?: HltbGame) => boolean | undefined,
-  options: { json?: boolean, limit?: number, writeTo?: string } = {}) {
+  options: { json?: boolean, limit?: number, writeTo?: string, title?: string } = {}) {
 
   const hltb = await readHltbGames();
   const steam = await readSteamGames({ limit: options.limit });
   const results = steam.filter(game => filter(game, hltb[game.Name]));
 
   let formattedResults = `${formatResults(results, hltb, options)}\n\n`
-    + rightPad(`Found ${results.length} matching games.`, RIGHT_PAD);
+    + `${results.length} matching games.`
   console.log(formattedResults);
   if (options.writeTo) {
     fs.writeFileSync(options.writeTo, formattedResults);
   }
 }
 
-function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, options: { json?: boolean }): string {
+function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, options: { json?: boolean, title?: string }): string {
   if (options.json) {
     return JSON.stringify(results.map(game => ({
       name: game.Name,
@@ -32,7 +32,7 @@ function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, opt
     })), null, 2);
 
   } else {
-    return results
+    return `# ${options.title || ''}\n| Name | Details |\n| ---- | ------- |\n` + results
       .map(game => {
         const percPositive = game["Positive"] / (game["Positive"] + game["Negative"]);
         let playTime = hltb[game.Name] ? hltb[game.Name]?.main_story.toFixed(1) : ((game["Median playtime forever"] / 60) || 0).toFixed(1);
@@ -40,19 +40,20 @@ function formatResults(results: SteamGame[], hltb: Record<string, HltbGame>, opt
         const score = percPositive * (game["Positive"] / 10) * Math.max(1, Math.log10(game["Estimated owners"] / 1000));
         return ({
           score,
-          text: `${rightPad(`${game.Name}:`, RIGHT_PAD)} ` +
-            `${game["Release date"]} | ${formatKilos(game["Estimated owners"])}👥 | ` +
-            `${game["Positive"]}👍 (${formatPercentage(percPositive)}) | ` +
-            `${playTime}h🏁 | $${game["Price"]}🏷️\n` + 
+          name: game.Name,
+          details: 
+            `https://store.steampowered.com/app/${game.AppID}  <br />` +
 
-            `${' '.repeat(RIGHT_PAD)} https://store.steampowered.com/app/${game.AppID}\n` +
+            `${game["Release date"]} / ${formatKilos(game["Estimated owners"])}👥 / ` +
+            `${game["Positive"]}👍 (${formatPercentage(percPositive)}) / ` +
+            `${playTime}h🏁 / $${game["Price"]}🏷️  <br />` + 
 
-            `${' '.repeat(RIGHT_PAD)} ${ellipsify(game["Tags"], 80)}`
+            `${ellipsify(game["Tags"], 80)}`
         })
       })
       .sort((a, b) => b.score - a.score)
-      .map(game => game.text)
-      .join('\n\n');
+      .map(game => `| ${game.name} | ${game.details} |`)
+      .join('\n');
   }
 }
 
